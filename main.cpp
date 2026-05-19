@@ -60,6 +60,7 @@ void checkSurvival() {
     }
     if (carl.health <= 0) {
         cout << "\nCarl collapses. You died on Planet 4546b.\n";
+		exit(0);
     }
 }
 //28 func
